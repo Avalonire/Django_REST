@@ -6,12 +6,16 @@ from rest_framework.views import APIView
 from rest_framework.generics import CreateAPIView, ListAPIView
 from .models import Author, Biography, Book, Article
 from .serializers import AuthorModelSerializer, BiographyModelSerializer, BookModelSerializer, ArticleModelSerializer
+from rest_framework.pagination import LimitOffsetPagination
 
+class AuthorPaginator(LimitOffsetPagination):
+    default_limit = 10
 
 class AuthorModelViewSet(ModelViewSet):
     queryset = Author.objects.all()
     serializer_class = AuthorModelSerializer
     filterset_fields = ['first_name']
+    pagination_class = AuthorPaginator
 
     # # Через query параметры
     # def get_queryset(self):
