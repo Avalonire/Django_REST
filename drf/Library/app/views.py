@@ -1,5 +1,6 @@
 from flask import Response
 from rest_framework.decorators import action
+from rest_framework.permissions import AllowAny
 from rest_framework.renderers import JSONRenderer
 from rest_framework.viewsets import ModelViewSet, ViewSet
 from rest_framework.views import APIView
@@ -8,8 +9,10 @@ from .models import Author, Biography, Book, Article
 from .serializers import AuthorModelSerializer, BiographyModelSerializer, BookModelSerializer, ArticleModelSerializer
 from rest_framework.pagination import LimitOffsetPagination
 
+
 class AuthorPaginator(LimitOffsetPagination):
     default_limit = 10
+
 
 class AuthorModelViewSet(ModelViewSet):
     queryset = Author.objects.all()
@@ -31,6 +34,7 @@ class BiographyModelViewSet(ModelViewSet):
 
 
 class BookModelViewSet(ModelViewSet):
+    permission_classes = [AllowAny]
     queryset = Book.objects.all()
     serializer_class = BookModelSerializer
 
