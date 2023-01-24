@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="323f15d7-c5a3-4a61-8a37-108a8a3c0862" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/Authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/src/components/Authors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub repo\Django_REST\drf\Library" />
@@ -77,6 +75,8 @@
       <workItem from="1673954683655" duration="6101000" />
       <workItem from="1674047076745" duration="156000" />
       <workItem from="1674127722995" duration="5302000" />
+      <workItem from="1674384786666" duration="376000" />
+      <workItem from="1674481985223" duration="4216000" />
     </task>
     <servers />
   </component>
