@@ -1,6 +1,6 @@
 from flask import Response
 from rest_framework.decorators import action
-from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.renderers import JSONRenderer
 from rest_framework.viewsets import ModelViewSet, ViewSet
 from rest_framework.views import APIView
@@ -16,7 +16,7 @@ class AuthorPaginator(LimitOffsetPagination):
 
 class AuthorModelViewSet(ModelViewSet):
     queryset = Author.objects.all()
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticatedOrReadOnly]
     serializer_class = AuthorModelSerializer
     filterset_fields = ['first_name']
     pagination_class = AuthorPaginator

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323f15d7-c5a3-4a61-8a37-108a8a3c0862" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/app/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/app/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,44 @@
       <recent name="C:\GitHub repo\Django_REST\drf\Library" />
     </key>
   </component>
+  <component name="RunManager" selected="Python tests.Python tests for app.tests.TestAuthorViewSet">
+    <configuration name="Python tests for app.tests.TestAuthorViewSet" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="drf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Library" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app.tests.TestAuthorViewSet&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for app.tests.TestAuthorViewSet.test_get_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="drf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Library" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;app.tests.TestAuthorViewSet.test_get_list&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for app.tests.TestAuthorViewSet" />
+        <item itemvalue="Python tests.Python tests for app.tests.TestAuthorViewSet.test_get_list" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +116,8 @@
       <workItem from="1674127722995" duration="5302000" />
       <workItem from="1674384786666" duration="376000" />
       <workItem from="1674481985223" duration="4238000" />
-      <workItem from="1674555840752" duration="6651000" />
+      <workItem from="1674555840752" duration="6982000" />
+      <workItem from="1674819851079" duration="6939000" />
     </task>
     <servers />
   </component>
@@ -96,5 +134,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/drf$.coverage" NAME=" Coverage Results" MODIFIED="1674821259787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Library" />
   </component>
 </project>
