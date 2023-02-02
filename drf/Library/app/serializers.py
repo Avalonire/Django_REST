@@ -8,6 +8,12 @@ class AuthorModelSerializer(HyperlinkedModelSerializer):
         fields = '__all__'
 
 
+class AuthorModelSerializer2(HyperlinkedModelSerializer):
+    class Meta:
+        model = Author
+        fields = ['first_name']
+
+
 class BiographyModelSerializer(HyperlinkedModelSerializer):
     class Meta:
         model = Biography
