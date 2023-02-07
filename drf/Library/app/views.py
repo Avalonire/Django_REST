@@ -46,9 +46,9 @@ class ArticleModelViewSet(ModelViewSet):
     serializer_class = ArticleModelSerializer
 
 
-class MyAPIView(ListAPIView):
-    queryset = Author.object.all()
-    serializer = AuthorModelSerializer
+class MyAPIView(ModelViewSet):
+    queryset = Author.objects.all()
+    serializer_class = AuthorModelSerializer
 
     def get_serializer_class(self):
         if self.request.version == '1':
