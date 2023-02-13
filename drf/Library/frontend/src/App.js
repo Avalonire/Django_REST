@@ -8,6 +8,7 @@ import {HashRouter, Route, Link, Switch, Redirect} from "react-router-dom";
 import AuthorBookList from "./components/AuthorBook";
 import LoginForm from "./components/Auth";
 import Cookies from "universal-cookie/es6";
+import BookForm from "./components/BookForm";
 
 const NotFound404 = ({location}) => {
     return (
@@ -68,6 +69,24 @@ class App extends React.Component {
         return headers
     }
 
+    createBook(name, author) {
+        const headers = this.get_headers()
+        const data = {name: name, author: author}
+        axios.post(`http://127.0.0.1:8080/api/books`, data, {headers}).then(response => {
+            let new_book = response.data
+            const author = this.state.authors.filter((item) => item.id === new_book.author)[0]
+            new_book.auth = author
+            this.setState({books: [...this.state.books, new_book]})
+        }).catch(error => console.log(error))
+    }
+
+    deleteBook(id) {
+        const headers = this.get_headers()
+        axios.delete(`http://127.0.0.1:8080/api/books/${id}`, {headers}).then(response => {
+            this.setState({book: this.state.books.filter((item) => item.id !== id)})
+        }).catch(error => console.log(error))
+    }
+
     load_data() {
         axios.get('http://127.0.0.1:8080/api/authors', {headers})
             .then(response => {
@@ -118,12 +137,20 @@ class App extends React.Component {
                     </nav>
                     <Switch>
                         <Route exact path='/' component={() => <AuthorList authors={this.state.authors}/>}/>
-                        <Route exact path='/books' component={() => <BookList items={this.state.books}/>}/>
+                        <Route exact path='/books/create' component={() => <BookForm authors={this.state.authors}
+                                                                                     createBook={(name, author) => this.createBook(name, author)}/>}/>
+                        <Route exact path='/books' component={() => <BookList items={this.state.books}
+                                                                              deleteBook={(id) => this.deleteBook(id)}/>}/>
                         <Route exact path='/author/:id' component={() => <AuthorBookList items={this.state.books}/>}/>
                         <Redirect from='/authors' to='/'/>
                         <Route component={NotFound404}/>
                         <Route exact path='/login' component={() => <LoginForm
                             get_token={(login, password) => this.get_token(login, password)}/>}/>
+                        <Route path='/author/:id'>
+                            <AuthorBookList items={this.state.books}/>
+                        </Route>
+                        <Redirect from='/authors' to='/'/>
+                        <Route component={NotFound404}/>
                     </Switch>
                 </HashRouter>
             </div>
