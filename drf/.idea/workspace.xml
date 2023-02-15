@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="323f15d7-c5a3-4a61-8a37-108a8a3c0862" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/src/components/books.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -118,7 +117,10 @@
       <workItem from="1674555840752" duration="6982000" />
       <workItem from="1674819851079" duration="6939000" />
       <workItem from="1675163369784" duration="5174000" />
-      <workItem from="1675679094175" duration="4715000" />
+      <workItem from="1675679094175" duration="4918000" />
+      <workItem from="1675771812816" duration="599000" />
+      <workItem from="1675772959476" duration="135000" />
+      <workItem from="1676290572728" duration="5841000" />
     </task>
     <servers />
   </component>
