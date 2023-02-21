@@ -6,8 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="323f15d7-c5a3-4a61-8a37-108a8a3c0862" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/Library/frontend/src/components/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Library/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Library/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/AuthorBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AuthorBook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/Authors.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Authors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/BookForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BookForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/components/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/frontend/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +76,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub repo\Django_REST\drf" />
+      <recent name="C:\GitHub repo\Django_REST\drf\Library\frontend" />
       <recent name="C:\GitHub repo\Django_REST\drf\Library" />
     </key>
   </component>
@@ -120,12 +144,18 @@
       <workItem from="1675679094175" duration="4918000" />
       <workItem from="1675771812816" duration="599000" />
       <workItem from="1675772959476" duration="135000" />
-      <workItem from="1676290572728" duration="5841000" />
+      <workItem from="1676290572728" duration="5981000" />
+      <workItem from="1676458354951" duration="682000" />
+      <workItem from="1676889373518" duration="1467000" />
+      <workItem from="1676891162756" duration="5219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

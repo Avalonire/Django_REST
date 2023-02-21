@@ -1,0 +1,36 @@
+version: '4.1'
+
+services:
+  db:
+    image: postgres
+    privileged: true
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: avalon
+      POSTGRES_PASSWORD: avalon667788
+      POSTGRES_DB: library
+  backend:
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    command:
+      - bash -c "./wait-for-postgres.sh db
+        && python manage.py migrate
+        && gunicorn library.wsgi -b 0.0.0.0:8080"
+    depends_on:
+      - db
+  nginx:
+    build: nginx
+    ports:
+      - 8080:80
+    depends_on:
+      - backend
+  frontend:
+    build: ./frontend
+    ports:
+      - 80:80
+    depends_on:
+      - nginx
